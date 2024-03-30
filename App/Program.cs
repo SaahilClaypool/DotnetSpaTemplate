@@ -87,7 +87,7 @@ var summaries = new[]
 };
 
 app.MapGet(
-        "/weatherforecast",
+        "/api/weatherforecast",
         () =>
         {
             var forecast = Enumerable
